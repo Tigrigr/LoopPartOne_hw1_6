@@ -8,6 +8,7 @@ public class Main {
         task6();
         task7();
         task8();
+
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -61,8 +62,9 @@ public class Main {
         System.out.println();
         System.out.println("Задача 8");
         int money = 0;
+        int deposit = 29000;
         for (int i = 1; i < 13; i++){
-            money = money + 29000;
+            money = money + deposit;
             System.out.println("Месяц " + i + ", количество накоплений " + money);
         }
     }
