@@ -9,6 +9,7 @@ public class Main {
         task7();
         task8();
         task9();
+        task10();
 
     }
     public static void task1 () {
@@ -78,6 +79,15 @@ public class Main {
         for (int i = 1; i < 13; i++){
             accumulation = (money * deposit) + accumulation;
             System.out.println("Месяц " + i + ", количество накоплений " + accumulation);
+        }
+    }
+    public static void task10 () {
+        System.out.println();
+        System.out.println("Задача 10");
+        for (int i = 1; i < 11; i++){
+            int multiple = 2;
+            int results = i * multiple;
+            System.out.println(multiple + "*" + i + "=" + results);
         }
     }
 }
